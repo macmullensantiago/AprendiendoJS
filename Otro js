@@ -1,0 +1,23 @@
+// get right now
+const now = new Date();
+
+// set a specific date and time
+// month counting starts with zero!
+const randomDate = new Date(2015, 3, 12, 6, 2, 58);
+
+// set a specific date - time set to midnight
+const win95Launch = new Date(1995, 7, 24);
+
+console.log(randomDate);
+console.log(win95Launch);
+
+const now = new Date();
+
+// all of the set functions have get
+console.log(now.getMonth());
+
+// miliseconds since 1 Jan 1970
+console.log(now.getTime());
+
+// day of the week(Sunday = 0)
+console.log(now.getDate());
