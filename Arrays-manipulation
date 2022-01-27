@@ -1,0 +1,35 @@
+Push and Pop - Affects end of array
+array.push(values) adds one or more value to end of array and returns its new length
+array.pop() removes value from end of array and returns removed value
+
+let arr1 = ["A", true, 2];
+console.log(ar1.push("new value"));
+console.log(arr1);
+console.log(arr1.pop()); // Remove last value
+console.log(arr1);
+
+
+
+
+Shift and Unshift - Affects front of array
+array.shift() removes value from front of array and returns removed value
+array.unshift(values) adds one or more value to front of array and returns its new length 
+
+let arr1 = ["A", true, 2];
+console.log(arr1.unshift("new value"));
+console.log(arr1);
+console.log(arr1.shift()); // Remove first value
+console.log(arr1);
+
+
+Concat
+Joins two arrays to create a new array
+
+let arr1 = ["A", true, 2];
+let arr2 = ["B", false, 3];
+let newArr = arr1.concat(arr2);
+let newArr2 = arr2.concat([1,2,3]);
+
+console.log(newArr);
+console.log(newArr2);
+
