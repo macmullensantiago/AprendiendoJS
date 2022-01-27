@@ -1,0 +1,13 @@
+let arrayLength = 5;
+let arr1 = [];
+let arr2 = Array(arrayLength);
+
+let arr1 = ["A", true, 2];
+console.log(arr1[0]);
+console.log(arr2[1]);
+
+let arrayLength = 2;
+let arr2 = Array(arrayLength);
+arr2[0] = "value at index 0";
+console.log(arr2[0]);
+console.log(arr2[1]); // No value present at index
