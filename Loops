@@ -1,0 +1,33 @@
+  Loops
+    * Execute code multiple times
+    * Iterate throught a list
+    * While something is true
+    Types
+    * while
+    * for
+    * for .. of
+  
+  While loops
+    const names = ['Justin', 'Sarah', 'Christopher'];
+    
+    let index = 0;
+    while (index < names.length){
+      const name = name[index];
+      console.log(name);
+      index++;
+      }
+      
+   For loops 
+   const names = ['Justin', 'Sarah', 'Christopher'];
+   
+   for (let index = 0; index < names.length; index++) {
+      const name = names[index];
+      console.log(name);
+      
+   For .. of loops
+    
+   const name = ['Justin', 'Sarah', 'Christopher'];
+    
+    for (let name of names);
+      console.log(names);
+      }
